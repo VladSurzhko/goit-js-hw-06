@@ -7,8 +7,7 @@ function onSubmit(event){
     if (email.value === "" || password.value === "") {
         return alert("Заповніть всі поля!")
       }
-      console.log(`email: ${email.value}, Password: ${password.value}`);
-      event.currentTarget.reset();
-}
 
-
+console.log(`email: ${email.value}, Password: ${password.value}`);
+event.currentTarget.reset();
+    }
